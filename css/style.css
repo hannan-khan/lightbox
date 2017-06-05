@@ -1,0 +1,274 @@
+
+.item {
+    padding-bottom: 25px;
+}
+.box.images {
+    border-radius: 5px;
+}
+.box {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    
+}
+.box img {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.box .cptn1 {
+    width: 100%;
+    position: relative;
+    overflow: auto;
+    padding: 0 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    top: 15px;
+    text-align: center;
+}
+.box .cptn1 div {
+    height: 100%;
+}
+.box .cptn1 .fa {
+    -wibkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 2px solid #fff;
+    -wibkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    width: 30px;
+    margin-top: 10px;
+    opacity: 0.3;
+}
+.box .cptn1 .fa:hover {
+    opacity: 1;
+}
+.box .cptn1 h3 {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.box .cptn1 p {
+    color: #000;
+    font-size: 12px;
+    margin-top: 3px
+}
+.box:hover img {
+    bottom: 30%;
+}
+
+.images {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+   
+}
+.images img {
+    width: 100%;
+    top: 0;
+    position: relative;
+    left: 0;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    -o-transition: -o-transform 0.3s;
+    transition: transform 0.3s;
+}
+.team1 .images .buttons {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.team1 .images .buttons .fa {
+       /* background: rgb(193, 206, 178); */
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 7px rgb(14, 141, 243);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #00BCD4;
+    display: inline-block;
+    margin: 0 1px;
+    line-height: 40px;
+    font-size: 31px;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0;
+}
+.team1 .images:hover img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+     color: #00BCD4;
+}
+.box.images:hover h3 {
+    color: #00BCD4;
+}
+.images:hover .ovrly {
+    opacity: 1;
+}
+.images:hover .buttons .fa {
+    opacity: 1;
+}
+
+
+/*=================================== team page 2 css =============================*/
+
+.box .cptn2 {
+    width: 100%;
+    bottom: 10%;
+    position: absolute;
+    left: 0;
+    overflow: auto;
+    padding: 0 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.box .cptn2 h3 {
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+.team2 .images .buttons {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.team2 .images .buttons .fa {
+    background: rgb(256, 256, 256);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: rgba(50, 50, 50, 0.9);
+    display: inline-block;
+    margin: 0 1px;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0;
+}
+.team2 .images:hover img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+     color: #00BCD4;
+}
+.team2 .images:hover .buttons .fa {
+    opacity: 1;
+}
+
+/*=================================== team page 3 css =============================*/
+
+.box .cptn3 {
+    width: 100%;
+    bottom: 25%;
+    position: absolute;
+    left: 0px;
+    font-family: sans-serif;
+    font-weight: bold;
+    overflow: auto;
+    padding: 0px 15px;
+}
+.team3 .box.images:hover h3, .box.images:hover p {
+    color: #03A9F4;
+}
+.box .cptn3 h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    display: inline;
+    text-transform: uppercase;
+}
+.box .cptn3 p {
+    color: #fff;
+    font-size: 12px;
+    margin-top: 3px;
+    float: right;
+}
+.team3 .des {
+    margin-top: 20px;
+    text-align: center;
+}
+.team3 .images .buttons .fa {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #00BCD4;
+    display: inline-block;
+    margin: 0 1px;
+    line-height: 40px;
+    font-size: 31px;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0;
+}
+.team3 .images:hover .buttons .fa {
+    opacity: 1;
+}
+.team3 .images .buttons {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
